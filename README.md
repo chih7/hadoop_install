@@ -41,7 +41,7 @@ sudo -s
 ```
 
 ```sh
-su -s
+su -
 ```
 
 ```sh
