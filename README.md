@@ -6,9 +6,6 @@ The script will let you setup a 3 node Hadoop cluster in no more than 10 minutes
 
 ## Installation in a node
 
-```sh
-get clone https://github.com/chih7/hadoop_install.git
-```
 
 ```sh
 sudo -s
@@ -19,7 +16,15 @@ su -
 ```
 
 ```sh
-./hadoop/install_hadoop.sh
+git clone https://github.com/chih7/hadoop_install.git
+```
+
+```sh
+cd ./hadoop_install
+```
+
+```sh
+./install-hadoop.sh
 ```
 
 ```
